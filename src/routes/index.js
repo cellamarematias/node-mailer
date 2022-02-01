@@ -36,7 +36,7 @@ router.post('/send-email', async (req, res) => {
 
     // config del nodemailer - qué enviamos
     let info = await transporter.sendMail({
-        from: '"Portfolio" <mcellamare@mgcobranzas.com>', // sender address,
+        from: '"Portfolio" <mcellamare@example.com>', // sender address,
         to: 'cellamarematias@gmail.com',
         subject: 'Portfolio Contact Form',
         // text: 'Hello World'
